@@ -2,7 +2,9 @@
 
 Система прямого финансирования фондов и волонтеров | A public funding system for volunteers and non-profits
 
-Двухминутная презентация для [Хакатона](https://github.com/developers-against-repressions/devs-against-the-machine) будет доступна [здесь](stouza.mp4).
+Двухминутная презентация для [Хакатона](https://github.com/developers-against-repressions/devs-against-the-machine) доступна [здесь](stouza.mp4) или на YouTube:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vrRX41wp5kk/0.jpg)](https://www.youtube.com/watch?v=vrRX41wp5kk)
 
 ## Текстовая версия
 
