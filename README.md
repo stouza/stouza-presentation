@@ -22,3 +22,21 @@
 
 Россия будет свободной!
 
+
+## Building the presentation
+
+Reassemble the video from parts and audio track with the following commands:
+
+```
+git clone --recurse https://github.com/stouza/stouza-presentation.git
+cd stouza-presentation
+mkdir build
+cd build
+cmake ..
+make -j12
+./stouza-presentation
+ffmpeg -i stouza.mp4 -i ../media/sound.m4a -c copy -map 0:v:0 -map 1:a:0 ../stouza.mp4 -shortest
+```
+
+The final `stouza.mp4` with audio track will be written into the project root folder.
+
