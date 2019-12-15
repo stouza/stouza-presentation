@@ -1,0 +1,3 @@
+[submodule "ThirdParty/moviemaker-cpp"]
+	path = ThirdParty/moviemaker-cpp
+	url = https://github.com/apc-llc/moviemaker-cpp.git
