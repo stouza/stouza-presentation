@@ -26,8 +26,8 @@ static void saveBmp(int width, int height, uint8_t* pixels,
 		}
 	
 	FILE* fp = fopen(filename.c_str(), "wb");
-    fwrite(bmp, vbmp.size(), 1, fp);
-    fclose(fp);
+	fwrite(bmp, vbmp.size(), 1, fp);
+	fclose(fp);
 }
 
 int main(int argc, char* argv[])
@@ -58,9 +58,27 @@ int main(int argc, char* argv[])
 	}
 
 	{
-		const unsigned int nframes = FPS * 10;
+		const unsigned int nframes = FPS * 45;
 		for (unsigned int iframe = 0; iframe < nframes; iframe++)
 			movie.addFrame("../media/part2.png");
+	}
+
+	{
+		const unsigned int nframes = FPS * 25;
+		for (unsigned int iframe = 0; iframe < nframes; iframe++)
+			movie.addFrame("../media/part3.png");
+	}
+
+	{
+		const unsigned int nframes = FPS * 50;
+		for (unsigned int iframe = 0; iframe < nframes; iframe++)
+			movie.addFrame("../media/part4.png");
+	}
+
+	{
+		const unsigned int nframes = FPS * 55;
+		for (unsigned int iframe = 0; iframe < nframes; iframe++)
+			movie.addFrame("../media/part5.png");
 	}
 
 	return 0;
